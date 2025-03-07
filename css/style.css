@@ -2,8 +2,9 @@
 /* font-family: "Raleway",sans-serif; */
 
 body {
+    text-transform: capitalize;
     background-color: #fafafa;
-    text-transform: none;
+    
 font-family: 'Roboto', sans-serif;
 color: #434455;
 background-color: #fff;
@@ -75,15 +76,15 @@ font-family: "Raleway", sans-serif;
         color: #fff;
 }
 .main-button .title-button {
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+    cursor: pointer;
+ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
 }
-.title-button .button-text {
-font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-}
+
 .title-button:focus,
 .title-button:hover {
     background-color: #404bbf;;
@@ -96,14 +97,17 @@ font-weight: 500;
         text-align: center;
         color: #2e2f42;
 }
-.main-titles .futures {
+/* .main-titles  */
+.futures
+ {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.futures .futures-text {
+/* .futures */
+ .futures-text {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -112,6 +116,9 @@ font-weight: 500;
 }
 .main-team {
     background-color: #f4f4fd;
+}
+.team-text {
+    background-color: #FFFFFF;
 }
 
 .footer {
